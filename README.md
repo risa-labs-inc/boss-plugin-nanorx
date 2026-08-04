@@ -1,4 +1,4 @@
-# BOSS Plugin — NanoRx
+# BOSS Plugin - NanoRx
 
 A **BOSS Console** panel plugin that embeds the **NanoRx** precision-oncology +
 DNA-nanobot dashboard (https://nanorx-discovery.web.app) in a right-side sidebar,
@@ -72,7 +72,7 @@ build time).
 
 ## Notes
 
-- The host's `browserService` may be `null` (disabled/unavailable) — the UI handles
+- The host's `browserService` may be `null` (disabled/unavailable) - the UI handles
   that with a graceful fallback and never crashes.
 - The embedded browser is created once and disposed when the panel closes.
 - To add a back/forward/reload toolbar, copy the pattern from `fluck-chatgpt`'s
